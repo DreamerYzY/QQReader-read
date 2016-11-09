@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="textselectedcolor">#349AFF</color>
+    <color name="textunselectedcolor">#989898</color>
+    <color name="litteline">#F0F0F0</color>
+
+    <color name="gv1">#FF8D8D</color>
+    <color name="gv2">#67BCFF</color>
+    <color name="gv3">#FFCF41</color>
+    <color name="gv4">#58D983</color>
+
+    <color name="fengexian">#FFF2F2F2</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="mask_color">#88888888</color>
+
+</resources>

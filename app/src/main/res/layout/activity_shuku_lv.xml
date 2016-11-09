@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shuku_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.yangzhiyan.qqreader.activity.ShukuLvActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/textselectedcolor">
+
+        <ImageView
+            android:id="@+id/ivreturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/arrow_l_disable" />
+
+        <TextView
+            android:id="@+id/tvsubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <com.yyydjk.library.DropDownMenu
+        android:id="@+id/shuku_dropmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ddunderlineColor="@color/gray"
+        app:dddividerColor="@color/gray"
+        app:ddmaskColor="@color/mask_color"
+        app:ddmenuBackgroundColor="@color/white"
+        app:ddmenuSelectedIcon="@mipmap/bookstore_title_arrow_up"
+        app:ddmenuTextSize="13sp"
+        app:ddmenuUnselectedIcon="@mipmap/bookstore_title_arrow"
+        app:ddtextSelectedColor="@color/textselectedcolor"
+        app:ddtextUnselectedColor="@color/textunselectedcolor" />
+
+</LinearLayout>

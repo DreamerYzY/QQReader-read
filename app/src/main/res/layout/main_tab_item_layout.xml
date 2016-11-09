@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    <View
+        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:background="@color/fengexian"/>
+    <RadioGroup
+        android:id="@+id/rgtab"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/rbshujia">
+        <RadioButton
+            android:id="@id/rbshujia"
+            style="@style/main_item_tab_radiobutton"
+            android:text="@string/rgshujia"
+            android:drawableTop="@drawable/rgshujia"/>
+        <RadioButton
+            android:id="@+id/rbjingxuan"
+            style="@style/main_item_tab_radiobutton"
+            android:text="@string/rgjingxuan"
+            android:drawableTop="@drawable/rgjingxuan"/>
+        <RadioButton
+            android:id="@+id/rbshuku"
+            style="@style/main_item_tab_radiobutton"
+            android:text="@string/rgshuku"
+            android:drawableTop="@drawable/rgshuku"/>
+        <RadioButton
+            android:id="@+id/rbfaxian"
+            style="@style/main_item_tab_radiobutton"
+            android:text="@string/rgfaxian"
+            android:drawableTop="@drawable/rgfaxian"/>
+    </RadioGroup>
+
+</RelativeLayout>
